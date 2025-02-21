@@ -1,19 +1,8 @@
-import {
-  FaLinkedin,
-  FaEnvelope,
-  FaChartLine,
-  FaUsers,
-  FaTools,
-  FaTrophy,
-  FaCertificate,
-  FaPhone,
-} from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
-import { motion } from "framer-motion";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 
