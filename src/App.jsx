@@ -1,4 +1,13 @@
-import { FaLinkedin, FaEnvelope, FaChartLine, FaUsers, FaTools, FaTrophy, FaCertificate, FaPhone } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaEnvelope,
+  FaChartLine,
+  FaUsers,
+  FaTools,
+  FaTrophy,
+  FaCertificate,
+  FaPhone,
+} from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -10,33 +19,18 @@ import Contact from "./components/Contact";
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100 p-6 font-sans">
-      {/* Navigation Bar */}
-     <Navbar/>
-
-      {/* Hero Section */}
-      <Hero/>
-      {/* About Section */}
-      <About/>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-700 to-gray-600 text-gray-100 p-6 font-sans">
+      <Navbar />
+      <Hero />
+      <About />
       <div className="h-1 bg-gray-700/20"></div>
-
-      {/* Experience Section */}
-     <Experience/>
-
+      <Experience />
       <div className="h-1 bg-gray-700/20"></div>
-
-      {/* Skills Section */}
-      <Skills/>
-
+      <Skills />
       <div className="h-1 bg-gray-700/20"></div>
-
-      {/* Achievements & Certifications */}
-    <Achievements/>
-
+      <Achievements />
       <div className="h-1 bg-gray-700/20"></div>
-
-      {/* Contact Section */}
-      <Contact/>
+      <Contact />
     </div>
   );
 }
